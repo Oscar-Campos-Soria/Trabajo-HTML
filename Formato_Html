@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px; line-height: 2; padding: 30px; background-color: #fafafa;">
+
+    <h2 style="color: #2c3e50; font-size: 32px;">Ejemplos de Formato HTML</h2>
+
+    <p>Este es un <b>texto en negrita</b> (b) y este es un <strong>texto con gran importancia</strong> (strong).</p>
+
+    <p>Aquí vemos <i>texto en cursiva</i> (i) y aquí un <em>texto enfatizado</em> (em).</p>
+
+    <p>Podemos usar <mark style="background-color: rgb(119, 119, 48);">texto marcado</mark> (mark) para resaltar y <small>texto más pequeño</small> (small) para notas secundarias.</p>
+
+    <p>El precio era <del>50€</del> <ins>30€</ins> (usando del e ins).</p>
+
+    <p>Fórmulas químicas: H<sub>2</sub>O (sub). Referencias matemáticas: 2<sup>10</sup> (sup).</p>
+
+</body>
+</html>
