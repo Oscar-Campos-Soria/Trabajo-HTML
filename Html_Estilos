@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color: powderblue; font-family: Verdana, sans-serif; padding: 30px;">
+<body style="background-color: rgb(134, 229, 241); font-family: Verdana, sans-serif; padding: 30px;">
 
-    <h1 style="background-color: white; color: #2c3e50; font-size: 55px; padding: 10px; border-radius: 5px;">
+    <h1 style="background-color: rgb(231, 228, 228); color: #2c3e50; font-size: 55px; padding: 10px; border-radius: 5px;">
         This is a heading
     </h1>
 
-    <p style="background-color: rgb(212, 91, 69); color: Black; font-family: 'Courier New', monospace; font-size: 40px; padding: 15px;">
+    <p style="background-color: rgb(70, 117, 160); color: Black; font-family: 'Courier New', monospace; font-size: 40px; padding: 10px;">
         This is a paragraph.
     </p>
 
