@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family: 'Segoe UI', Tahoma, sans-serif; padding: 30px;">
+
+    <h1 style="font-size: 36px; color: #2c3e50;">Uso de Comentarios en HTML</h1>
+
+    <p style="font-family: Verdana; font-size: 18px; color: #34495e;">
+        This is a paragraph.
+    </p>
+
+    <p style="font-family: 'Courier New', monospace; font-size: 16px; background-color: #f4f4f4; padding: 10px;">
+        This is a paragraph too.
+    </p>
+
+</body>
+</html>
