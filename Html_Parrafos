@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body style="padding: 20px;">
+
+    <p style="font-family: 'Courier New', monospace; font-size: 18px; color: #e74c3c;">
+        This paragraph
+        contains a lot of lines
+        in the source code,
+        but the browser 
+        ignores it.
+    </p>
+
+    <p style="font-family: Calibri, Helvetica, sans-serif; font-size: 22px; color: #2980b9;">
+        This paragraph
+        contains       a lot of spaces
+
+        in the source      code,
+        but the     browser 
+        ignores it.
+    </p>
+
+    <p style="font-family: 'Georgia', serif; font-size: 16px; color: #2c3e50; line-height: 1.6;">
+        The number of lines in a paragraph depends on the size of the browser window. If you resize the browser window, the number of lines in this paragraph will change.
+    </p>
+
+</body>
+</html>
