@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body> 
 
-<h1 style="font-family: Verdana, sans-serif; font-size: 70px; color: #78abdd;">
-    Titulo Basic
-</h1>
+<p style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 30px; color: #1a5276;">
+    This is a paragraph.
+</p>
 
-<p style="font-family: 'Times New Roman', Times, serif; font-size: 18px; color: #91e5c9;">
-    Mi primer estudio sobre html.
+<p style="font-family: 'Courier New', Courier, monospace; font-size: 16px; color: #e67e22;">
+    This is a paragraph.
 </p>
 
 </body>
