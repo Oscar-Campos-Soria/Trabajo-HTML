@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rutas de Archivos e Imágenes</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 20px; }
+        img { 
+            border: 5px solid #ddd; 
+            border-radius: 15px; 
+            margin: 10px;
+            transition: 0.3s;
+        }
+        img:hover { transform: scale(1.05); border-color: #3498db; }
+        .etiqueta { color: #666; font-style: italic; display: block; }
+    </style>
+</head>
+<body>
+
+    <h2>1. Ruta Absoluta (URL Completa)</h2>
+    <p>Esta imagen viene de un servidor externo:</p>
+    <img src="https://www.w3schools.com/images/picture.jpg" alt="Montaña" style="width:300px">
+    <span class="etiqueta">Fuente: W3Schools.com</span>
+
+    <hr>
+
+    <h2>2. Ruta Relativa (Archivo Local)</h2>
+    <p>Para que esto funcione, debes tener una imagen llamada "mifoto.jpg" en tu carpeta:</p>
+    <img src="mifoto.jpg" alt="Mi imagen local" style="width:300px">
+    
+    <div style="background: #fdf2f2; padding: 10px; border: 1px solid #f5c6cb; margin-top: 20px;">
+        <p><strong>Dato Pro:</strong> El atributo <b>alt</b> es obligatorio. Si la imagen no carga, este texto aparecerá en su lugar.</p>
+    </div>
+
+</body>
+</html>
