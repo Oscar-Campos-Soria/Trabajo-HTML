@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Interactivo</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding-top: 50px; }
+        #demo { 
+            color: #2c3e50; 
+            font-size: 20px; 
+            font-weight: bold;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover { background-color: #2980b9; }
+    </style>
+</head>
+<body>
+
+    <h1>Mi Primer JavaScript</h1>
+    <p>Presiona el botón para ejecutar una función de JavaScript:</p>
+
+    <button type="button" onclick="mostrarFecha()">
+        Mostrar Fecha y Hora
+    </button>
+
+    <p id="demo"></p>
+
+    <script>
+        // Esta es una función: un bloque de código que puedes reutilizar
+        function mostrarFecha() {
+            // Buscamos el elemento con id="demo" y cambiamos su contenido
+            document.getElementById('demo').innerHTML = Date();
+            // También podemos cambiar el estilo con JS
+            document.getElementById('demo').style.backgroundColor = "#ecf0f1";
+        }
+    </script>
+
+</body>
+</html>
