@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family: Arial, sans-serif; padding: 20px; background-color: #f9f9f9;">
+
+    <h2 style="color: #333;">Manejo de Imágenes con Atributos</h2>
+
+    <img src="https://www.w3schools.com/html/pic_trulli.jpg" 
+         alt="Una casa típica italiana" 
+         width="500" 
+         height="333"
+         style="border: 5px solid #2c3e50; border-radius: 15px; box-shadow: 10px 10px 5px #ccc;">
+
+    <p style="font-size: 16px; color: #666; font-style: italic;">
+        Esta imagen tiene un borde sólido, esquinas redondeadas y una sombra decorativa.
+    </p>
+
+    <h3>Imagen como Enlace (haz clic en el logo):</h3>
+    <a href="https://www.w3schools.com">
+        <img src="https://www.w3schools.com/html/html5.gif" 
+             alt="Logo HTML5" 
+             style="width: 128px; height: 128px; border: 2px dashed #ff5722; padding: 10px;">
+    </a>
+
+</body>
+</html>
