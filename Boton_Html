@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica de Botones y Ventanas</title>
+    
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; }
+        
+        /* Estilizando nuestro botón */
+        .mi-boton {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer; /* Cambia el ratón a una mano */
+        }
+
+        .mi-boton:hover {
+            background-color: #45a049; /* Se oscurece al pasar el mouse */
+        }
+
+        #contenedor-iframe {
+            margin-top: 30px;
+            display: none; /* Escondido al principio */
+        }
+    </style>
+
+    <script>
+        // Esta función se activa al presionar el botón
+        function mostrarVentana() {
+            document.getElementById('contenedor-iframe').style.display = 'block';
+            alert("¡Has activado el botón!");
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Uso de Botones en HTML</h1>
+    
+    <button type="button" class="mi-boton" onclick="mostrarVentana()">
+        Haz clic para ver el Iframe
+    </button>
+
+    <div id="contenedor-iframe">
+        <h3>Contenido cargado mediante Iframe:</h3>
+        <iframe src="https://www.wikipedia.org" width="80%" height="400px"></iframe>
+    </div>
+
+</body>
+</html>
