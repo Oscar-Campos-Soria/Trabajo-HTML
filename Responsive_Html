@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Responsividad</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; text-align: center; }
+        
+        /* Imagen responsiva */
+        .foto-flexible {
+            max-width: 100%; /* No deja que la imagen se salga de la pantalla */
+            height: auto;    /* Mantiene la proporción */
+            border: 5px solid #333;
+        }
+
+        .caja-texto {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Página con Viewport Activo</h2>
+    <p>Si abres esto en tu celular o achicas la ventana de tu navegador, verás que la imagen y el texto se acomodan solitos.</p>
+
+    <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="Naturaleza" class="foto-flexible">
+
+    <div class="caja-texto">
+        <p>Gracias al Viewport, no tienes que hacer "zoom" con los dedos para leer este texto en un teléfono móvil.</p>
+    </div>
+
+</body>
+</html>
