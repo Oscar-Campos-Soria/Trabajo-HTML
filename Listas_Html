@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listas Avanzadas HTML</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 30px; background-color: #f4f7f6; }
+        .container { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1 { color: #52bd90; text-align: center; }
+        h3 { color: #df7ee2; margin-top: 20px; }
+        ul, ol { margin-bottom: 20px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Menú de Aprendizaje Estructurado</h1>
+
+    <h3>1. Ruta de Aprendizaje (Numeración Romana)</h3>
+    <ol type="I">
+        <li>Fundamentos de HTML
+            <ul style="list-style-type: circle;">
+                <li>Etiquetas básicas</li>
+                <li>Atributos de texto</li>
+            </ul>
+        </li>
+        <li>Diseño con Tablas
+            <ul style="list-style-type: square;">
+                <li>Colspan y Rowspan</li>
+                <li>Colgroup</li>
+            </ul>
+        </li>
+        <li>Organización con Listas</li>
+    </ol>
+
+    <hr>
+
+    <h3>2. Glosario Técnico</h3>
+    <dl>
+        <dt><b>&lt;ul&gt; (Unordered List)</b></dt>
+        <dd>Crea listas con viñetas. Puedes cambiar el estilo a 'disc', 'circle' o 'square'.</dd>
+        
+        <dt><b>&lt;ol&gt; (Ordered List)</b></dt>
+        <dd>Crea listas numeradas. Atributos comunes: <i>type="A"</i>, <i>type="i"</i>, o <i>start="5"</i>.</dd>
+    </dl>
+
+    <hr>
+
+    <h3>3. Checklist de Progreso</h3>
+    <ul style="list-style-type: none;">
+        <li> Archivo creado</li>
+        <li> Código guardado</li>
+        <li> Listo para subir a GitHub</li>
+    </ul>
+</div>
+
+</body>
+</html>
