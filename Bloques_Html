@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demostración de Bloques HTML</title>
+    <style>
+        /* Agregamos bordes para que veas que cada bloque ocupa todo el ancho */
+        section, aside, article, footer, header, div {
+            border: 1px dashed #ccc;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        main { background-color: #fdfdfd; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Título Principal (h1)</h1>
+        <nav>
+            <b>Enlaces en línea:</b> | <a href="#">Inicio</a> | <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>Título de Artículo (h2)</h2>
+                <p>Este es un párrafo (&lt;p&gt;). Dentro tiene texto en <u>línea</u> y <i>cursiva</i>.</p>
+                
+                <blockquote cite="https://www.ejemplo.com">
+                    "Esto es una cita en bloque (blockquote), tiene sangría propia."
+                </blockquote>
+
+                <figure>
+                    <canvas id="miCanvas" style="border:1px solid #000; width:100px; height:50px;"></canvas>
+                    <figcaption>Lienzo (canvas) con su subtítulo (figcaption)</figcaption>
+                </figure>
+            </article>
+
+            <aside>
+                <h3>Información Aparte (aside)</h3>
+                <p>Contenido lateral relacionado.</p>
+            </aside>
+        </section>
+
+        <section>
+            <hr>
+            <form action="/enviar">
+                <fieldset>
+                    <legend>Formulario (form + fieldset):</legend>
+                    <label>Nombre:</label>
+                    <input type="text">
+                </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <h3>Multimedia y Datos</h3>
+            <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+            </video>
+            
+            <pre>Este es un texto preformateado (&lt;pre&gt;)
+    respeta los    espacios.</pre>
+
+            <table border="1">
+                <tr><th>Tabla (table)</th></tr>
+                <tr><td>Celda de datos</td></tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            Escrito por Oscar Campos.<br>
+            <a href="mailto:correo@ejemplo.com">Contacto (address)</a>
+        </address>
+        <p>&copy; 2026 Mi Práctica de Bloques</p>
+    </footer>
+
+    <noscript>Tu navegador no soporta JavaScript (noscript).</noscript>
+
+</body>
+</html>
