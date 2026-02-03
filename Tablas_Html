@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Master en Tablas HTML</title>
+    <style>
+        /* Estilos para que la tabla se vea profesional */
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Bordes simples y limpios */
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Estilo de los bordes y el relleno (Padding) */
+        th, td {
+            border: 2px solid #444; 
+            padding: 15px; /* Relleno de las celdas */
+            text-align: center;
+        }
+
+        /* Cabeceras de tablas */
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* Estilo de las mesas (cebras) */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align:center;">Aprendiendo Tablas Complejas</h2>
+
+    <table>
+        <colgroup>
+            <col style="background-color: #e8f5e9;"> <col span="2"> </colgroup>
+
+        <thead>
+            <tr>
+                <th>Categoría</th>
+                <th>Concepto</th>
+                <th>Ejemplo / Uso</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td rowspan="2"><b>Estructura</b></td> <td>Cabeceras</td>
+                <td>Uso de la etiqueta &lt;th&gt;</td>
+            </tr>
+            <tr>
+                <td>Bordes</td>
+                <td>Definidos en el CSS</td>
+            </tr>
+            <tr>
+                <td><b>Espaciado</b></td>
+                <td colspan="2">Relleno (Padding) aplicado a todas las celdas</td> </tr>
+            <tr>
+                <td><b>Diseño</b></td>
+                <td>Colgroup</td>
+                <td>Resalta columnas completas</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <td colspan="3">Fin de la lección de tablas</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
