@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Práctica de Iframes</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        /* Estilo para que el iframe se vea como una tarjeta */
+        .mapa-marco {
+            border: 5px solid #333;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Insertando Contenido Externo (Iframes)</h2>
+    <p>A continuación, un mapa insertado con dimensiones específicas y sin bordes de navegador:</p>
+
+    <iframe 
+        class="mapa-marco"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.00401%2C51.47612%2C0.00030%2C51.47812&layer=mapnik" 
+        width="100%" 
+        height="400" 
+        style="border:none;" 
+        title="Mapa de ejemplo">
+    </iframe>
+
+    <p>Nota: Usamos <b>width="100%"</b> para que el mapa se adapte a todo el ancho de tu pantalla.</p>
+
+</body>
+</html>
