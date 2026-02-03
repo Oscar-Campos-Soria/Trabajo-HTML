@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: #fdfdfd; padding: 50px;">
+
+    <h1 style="color: #1a237e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 48px; text-shadow: 2px 2px 4px rgba(0,0,0,0.1); border-bottom: 4px double #1a237e; display: inline-block;">
+        A Blue Heading
+    </h1>
+
+    <p style="color: #b71c1c; font-family: 'Georgia', serif; font-size: 22px; font-style: italic; line-height: 1.8; max-width: 500px; padding: 10px; border-left: 3px solid #b71c1c;">
+        A red paragraph. Este texto utiliza estilos en línea para definir cada detalle visual sin necesidad de archivos externos.
+    </p>
+
+</body>
+</html>
