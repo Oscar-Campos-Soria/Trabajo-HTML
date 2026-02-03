@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Estilo para el contenedor de bloque */
+  .bloque-amarillo {
+    background-color: #FFF4A3;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #e6db74;
+  }
+
+  /* Estilo para el elemento en línea */
+  .resaltado-verde {
+    background-color: #d4edda;
+    color: #155724;
+    font-weight: bold;
+    padding: 2px 5px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Diferencia entre Div y Span</h1>
+
+<p>Esto es un texto normal antes del div.</p>
+
+<div class="bloque-amarillo">
+  Soy un <b>&lt;div&gt;</b>. Mira cómo ocupo todo el ancho de la pantalla, empujando lo que sigue hacia abajo.
+</div>
+
+<p>
+  Ahora, observa este texto. Aquí usaré un 
+  <span class="resaltado-verde">esto es un &lt;span&gt;</span> 
+  dentro de un párrafo. Como es un elemento "en línea", 
+  <b>no</b> rompe el texto ni ocupa todo el ancho.
+</p>
+
+</body>
+</html>
