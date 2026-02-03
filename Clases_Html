@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Estilo general para todas las ciudades (Clase) */
+  .city {
+    background-color: #f4f4f4;
+    color: #333;
+    border-left: 10px solid #ccc; /* Un borde lateral grueso */
+    margin: 15px;
+    padding: 25px;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1); /* Una sombrita suave */
+  }
+
+  /* Estilos específicos para ciudades usando IDs */
+  #favorita {
+    background-color: #ffd700; /* Color oro para tu favorita */
+    border-left: 10px solid #ff8c00;
+  }
+
+  /* Cambio de color al pasar el ratón (Hover) */
+  .city:hover {
+    background-color: #e8f4fd;
+    transform: scale(1.02); /* Se hace un poquito más grande */
+    transition: 0.3s; /* Animación suave */
+  }
+</style>
+</head>
+<body>
+
+<h1>Mis Destinos Turísticos</h1>
+
+<div class="city">
+  <h2>Londres</h2>
+  <p>Famosa por el Big Ben y su clima nublado.</p>
+</div> 
+
+<div class="city" id="favorita">
+  <h2>París </h2>
+  <p>La ciudad del amor y la Torre Eiffel. (Esta tiene un ID único).</p>
+</div>
+
+<div class="city">
+  <h2>Tokio</h2>
+  <p>La mezcla perfecta entre tecnología y tradición.</p>
+</div>
+
+</body>
+</html>
