@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family: 'Segoe UI', sans-serif; padding: 30px; line-height: 1.6;">
+
+    <h1 style="color: #2c3e50;">Enlaces y Marcadores</h1>
+
+    <p>Ir a: 
+        <a href="#seccion1" style="color: #3498db; text-decoration: none; font-weight: bold;">Sección 1</a> | 
+        <a href="#seccion2" style="color: #9b59b6; text-decoration: none; font-weight: bold;">Sección 2</a>
+    </p>
+
+    <div style="margin-top: 500px;"> <h2 id="seccion1" style="font-size: 30px; color: #e67e22; border-bottom: 2px solid #e67e22;">
+            Sección 1
+        </h2>
+        
+        <p style="font-size: 18px;">
+            Este enlace cambia de color si ya lo has visitado (por defecto en el navegador), 
+            pero aquí lo hemos forzado con un estilo inicial:
+            <br>
+            <a href="https://www.google.com" style="color: #27ae60; font-family: 'Courier New', monospace; font-size: 20px;">
+                Visitar un sitio externo (Verde)
+            </a>
+        </p>
+    </div>
+
+    <div style="margin-top: 500px;">
+        
+        <h2 id="seccion2" style="font-size: 30px; color: #8e44ad; border-bottom: 2px solid #8e44ad;">
+            Sección 2
+        </h2>
+        
+        <p style="font-size: 18px;">
+            Puedes hacer que un enlace no tenga subrayado usando 
+            <code style="background: #eee;">text-decoration: none;</code>:
+            <br><br>
+            <a href="#seccion1" style="text-decoration: none; background-color: #34495e; color: white; padding: 10px 20px; border-radius: 5px; font-size: 16px;">
+                Volver arriba (Estilo de Botón)
+            </a>
+        </p>
+    </div>
+
+</body>
+</html>
