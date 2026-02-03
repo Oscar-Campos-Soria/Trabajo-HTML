@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Plantilla de Diseño Web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* El selector * asegura que el padding no afecte el ancho total */
+        * { box-sizing: border-box; }
+
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; }
+
+        /* Cabecera profesional */
+        header {
+            background-color: #2c3e50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Contenedor principal que usa float */
+        nav {
+            float: left;
+            width: 25%; /* Menú un poco más delgado */
+            background: #ecf0f1;
+            padding: 20px;
+            height: 350px; 
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 75%;
+            background-color: #ffffff;
+            height: 350px;
+        }
+
+        /* TRUCO VITAL: Limpia los floats para que el footer no se suba */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer {
+            background-color: #34495e;
+            padding: 15px;
+            text-align: center;
+            color: white;
+        }
+
+        /* DISEÑO RESPONSIVO: Para pantallas de menos de 600px (celulares) */
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%; /* Las columnas ocupan todo el ancho y se apilan */
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+  <h2>Explorador de Ciudades</h2>
+</header>
+
+<section>
+  <nav>
+    <h3>Menú</h3>
+    <ul>
+      <li><a href="#">Londres</a></li>
+      <li><a href="#">París</a></li>
+      <li><a href="#">Tokio</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Bienvenido</h1>
+    <p>Este es un diseño de dos columnas usando <b>floats</b>. Es la técnica clásica para organizar contenido en la web.</p>
+    <p>Intenta cambiar el tamaño de la ventana de tu navegador para ver cómo el menú se mueve arriba del contenido cuando la pantalla es pequeña.</p>
+  </article>
+</section>
+
+<footer>
+  <p>© 2026 Mi Portafolio de Prácticas</p>
+</footer>
+
+</body>
+</html>
