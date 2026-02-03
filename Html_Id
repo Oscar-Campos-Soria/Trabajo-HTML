@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* ID: Solo para este encabezado único */
+  #myHeader {
+    background-color: lightblue;
+    color: #2c3e50;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    border-bottom: 5px solid #3498db;
+  }
+
+  /* Clase: Para varios elementos que queramos resaltar igual */
+  .importante {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+
+  /* Estilo para el Iframe */
+  .video-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+</style>
+</head>
+<body>
+
+  <h1 id="myHeader">Mi Portal de Prácticas</h1>
+
+  <div class="importante">
+    <p><strong>Nota:</strong> Este encabezado azul usa un <b>ID</b> porque es único. Este cuadro amarillo usa una <b>Clase</b> porque podríamos tener más notas como esta.</p>
+  </div>
+
+  <div class="video-container">
+    <h2>Iframe: Insertando contenido externo</h2>
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</body>
+</html>
